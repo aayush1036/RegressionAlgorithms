@@ -88,7 +88,7 @@ X1 = X_scaler.transform(add_ones=True)
 ```
 Normalizes the inputs by using the formula x_norm = (x-mean(x))/std(x)<br>
 Arguments:
-1. add_ones (bool, optional): Whether you want to add ones for intercept or not. Defaults to True.
+1. add_ones (bool, optional): Whether you want to add ones for intercept or not. Defaults to True.<bradd >
 Returns the normalized data
 
 ## inverse_transform function 
@@ -97,7 +97,7 @@ def inverse_transform(self,inp):
 #goal - to invert the transformation on the data 
 x_rescaled = X_scaler.inverse_transform()
 ```
-Reverses the normalization by using the formula x = (x_norm*std(x))+mean(x)
+Reverses the normalization by using the formula x = (x_norm*std(x))+mean(x)<br>
 Arguments
 1. inp (np.array or pd.Series or pd.DataFrame): The normalized data which you would like to convert to original data
 
