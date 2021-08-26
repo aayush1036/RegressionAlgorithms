@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-from sklearn import metrics 
 from sklearn.metrics import mean_squared_error,r2_score,precision_score, recall_score, f1_score
 from scipy.stats import jarque_bera,kurtosis,skew
 class Descent:
