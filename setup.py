@@ -8,7 +8,7 @@ LONG_DESCRIPTION = 'Makes learning gradient descent easy and makes converting st
 
 # Setting up
 setup(
-    name="MiniTensorflow",
+    name="GradientDescent",
     version=VERSION,
     author="Aayushmaan Jain",
     author_email="<aayushmaan1306@gmail.com.com>",
