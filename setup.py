@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 with open('README.md','r') as f:
     long_description = f.read()
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Makes learning gradient descent easy'
 LONG_DESCRIPTION = 'Makes learning gradient descent easy and makes converting statistical concepts to code easier with transparent usage and flexible control'
 

@@ -82,13 +82,14 @@ Stores the mean and standard deviation of the data for future transformations
 
 ## transform function 
 ```python
-def transform(self,add_ones=True)->np.array:
-# Goal - to normalize the ddata and concatenate ones in the begining 
+def transform(self,values=None,add_ones=False)->np.array:
+# Goal - to normalize the data and concatenate ones in the begining 
 X1 = X_scaler.transform(add_ones=True)
 ```
 Normalizes the inputs by using the formula x_norm = (x-mean(x))/std(x)<br>
 Arguments:
-1. add_ones (bool, optional): Whether you want to add ones for intercept or not. Defaults to True.<bradd >
+1. values - The values on which you want to apply the transformation, if not given then it transforms the data passed to it in the constructor<br>
+2. add_ones (bool, optional): Whether you want to add ones for intercept or not. Defaults to True.<br>
 Returns the normalized data
 
 ## inverse_transform function 
